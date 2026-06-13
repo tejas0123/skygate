@@ -1,0 +1,22 @@
+# Maven build output
+target/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Spring local overrides (never commit secrets)
+application-local.yml
+application-local.properties
+.env.local
+
+# Kubernetes secrets (we'll use example files instead)
+*-secret.yaml
+!*-secret.example.yaml
+
+# OS
+.DS_Store
+Thumbs.db
